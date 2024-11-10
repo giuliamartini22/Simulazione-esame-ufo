@@ -91,7 +91,7 @@ class DAO():
         cursor.close()
         conn.close()
         return result
-
+#dao che restituisce solo 1 valore
     @staticmethod
     def getPesoArchi(shape, anno, id1, id2):
         conn = DBConnect.get_connection()
